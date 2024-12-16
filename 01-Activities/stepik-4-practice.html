@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн магазин 2</title>
+</head>
+<body>
+    <header>
+        <img src="https://cdn.stepik.net/media/users/647088271/1693154181-Pr3Zsul/avatar.png" alt="Логотип WH" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Товары</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Предложения товаров</h2>
+            <div class="product">
+                <img src="https://cdn.stepik.net/media/cache/images/courses/135466/cover_HKc8ixh/4f77761a4c0dead23a96afce4e42b2bb.jpg" alt="Товар 1" class="tovar">
+                <h3>HTML CSS JS</h3>
+                <p>Цена: Бесплатно</p>
+            </div>
+            <div class="product">
+                <img src="https://cdn.stepik.net/media/cache/images/courses/181092/cover_j9G8gQA/02ddd1e74b30200abaf16f9a2508b95b.jpg" alt="Товар 2" class="tovar">
+                <h3>PHP (prp)</h3>
+                <p>Цена: $17</p>
+            </div>
+        </section>
+        <section>
+            <h2>Форма заказа</h2>
+            <form action="submit_order.php" method="post">
+                <input type="text" name="name" placeholder="Имя" required>
+                <input type="text" name="address" placeholder="Адрес" required>
+                <input type="tel" name="phone" placeholder="Номер телефона" required>
+                <button type="submit">Оформить заказ</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>Контактная информация</h3>
+        <p>Адрес: ул. Примерная, д. 123</p>
+        <p>Телефон: 123-456-7890</p>
+        <p>Email: info@example.com</p>
+    </footer>
+</body>
+</html>
