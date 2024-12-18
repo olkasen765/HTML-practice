@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header img {
+    width: 70px;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    display: block;
+    animation: bounce 1s infinite alternate;
+    transition: color 0.3s ease; /* Добавим эффект перехода для изменения цвета */
+}
+
+/* Добавим анимацию для элементов навигации */
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.main-content {
+    text-align: center;
+}
+/* Добавим анимацию для заголовка на главной странице */
+.main-content h2 {
+    animation: slideIn 1s ease-in-out;
+}
+
+/* Добавим ключевые кадры для анимации заголовка */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Изменение цвета при наведении на ссылку */
+nav a:hover {
+    color: #ffd700; /* Измените цвет, как вам угодно */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Add responsive styles */
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+    }
+}
