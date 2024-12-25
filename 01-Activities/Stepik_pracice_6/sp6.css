@@ -1,14 +1,51 @@
-ul {
-    list-style-type: disc;
-    color: #27ae60;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-ol {
-    list-style-type: decimal;
-    color: #666;
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
 }
-li {
-    margin-bottom: 5px;
-    border: 1px solid #3498db;
-    color: #e74c3c;
+
+.box {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Анимация при наведении */
+.box:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Медиазапрос для адаптивности */
+@media only screen and (max-width: 600px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+    }
 }
