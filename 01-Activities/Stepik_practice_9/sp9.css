@@ -1,1 +1,31 @@
 
+#news-block {
+    padding: 20px; /* Добавляем отступы вокруг блока новостей */
+    background-color: #f9f9f9;
+}
+
+article {
+    margin-bottom: 20px; /* Добавляем отступ снизу между новостями */
+    padding: 15px;
+    border: 1px solid #444;    
+}
+
+h2 {
+    color: #333;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
