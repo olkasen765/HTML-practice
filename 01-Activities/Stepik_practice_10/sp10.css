@@ -1,26 +1,24 @@
-form {
-    padding: 20px; /* Добавляем отступы вокруг формы */
-    border: 1px solid #34495e; /* Добавляем темно-серую рамку для формы */
-    background-color: #ecf0f1;
+#comments {
+    padding: 15px;
+    background-color: #fff;
 }
 
-input,
-textarea {
-    margin-bottom: 15px; /* Добавляем отступ снизу между полями ввода */
-    width: 100%; /* Растягиваем поля ввода на 100% ширины формы */    
-    border: 1px solid #34495e;
-    padding: 10px;
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ecf0f1;
 }
 
-button {
-    padding: 10px 15px; /* Добавляем отступы вокруг текста кнопки */
-    border: none; /* Убираем границу кнопки */
-    cursor: pointer; /* Добавляем указатель при наведении на кнопку */
-    background-color: #3498db;
-    color: #fff;
+.author {
+    color: #3498db;
+    font-size: 16px;
 }
 
-h2 {
-    padding: 10px;
-    text-align: center;
+.comment {
+    margin-top: 10px;
+    color: #333;
 }
+
+
+
+
