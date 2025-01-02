@@ -1,32 +1,24 @@
-#products {
-    padding: 20px;
-    background-color: #f4f4f4;
+#comments {
+    padding: 15px;
+    background-color: #fff;
 }
 
 article {
     margin-bottom: 20px;
-}
-
-button.buy-button {
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    background-color: #27ae60;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-
-#products article {
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #ecf0f1;
 }
 
-.product-title {
-    color: #333;
-    font-size: 18px;
-}
-
-.price {
+.author {
     color: #3498db;
-    font-weight: 700;
+    font-size: 16px;
 }
+
+.comment {
+    margin-top: 10px;
+    color: #333;
+}
+
+
+
+
