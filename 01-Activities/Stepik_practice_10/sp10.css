@@ -19,6 +19,6 @@ article {
     color: #333;
 }
 
-
-
-
+p {
+    font-weight: bold;
+}
