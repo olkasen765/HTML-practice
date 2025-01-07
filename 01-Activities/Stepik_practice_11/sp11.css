@@ -6,7 +6,8 @@
 article {
     margin-bottom: 20px; /* Добавляем отступ снизу между новостями */
     padding: 15px;
-    border: 1px solid #444;    
+    border: 1px solid #444;  
+    color: blue;  
 }
 
 h2 {
