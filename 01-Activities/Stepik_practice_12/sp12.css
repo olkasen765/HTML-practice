@@ -1,4 +1,9 @@
 h2 {
-color: blue;
+    color: blue;
 
+}
+
+div {
+    width: 800px;
+    margin: 0 auto;
 }
